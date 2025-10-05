@@ -1,58 +1,54 @@
 # Stored Memory X (SMX)
 
-## Hakkında
+## About
 
-SMX porjesi, Web tabanlı bir elektronik bir taslak kitabı sunar. Yazar istenilen bir konu üzerine başlıklar, metinler, listeler ve tablo gibi imkanlarla klasik bir kitap yazmak yerine, daha modern ve daha dinamik bir kitap yazmış olur. Ayrıca SMX, genel olarak bir yazılım dilinin öğretici bir kitap yazmak üzerine kuruluğu olduğundan `pre` + `code`, Hljs ile de kodların renklendirmesini sağlar. Böylelikle daha renkli ve daha cazip kitaplar yazılabilir.
+The SMX project offers a web-based electronic notebook. Instead of writing a traditional book with headings, texts, lists, and tables, authors can create a more modern and dynamic book. Additionally, since SMX is primarily designed for writing tutorial books for programming languages, it supports `pre` + `code` with syntax highlighting via Hljs, making code snippets colorful and visually appealing. This allows for more vibrant and engaging books.
 
-## Özellikleri
+## Features
 
-SMX projesini öne çıkan özellikleri şunlardır:
+The standout features of the SMX project include:
 
-- Web tabanlı olup, internet tarayıcısına sahip olan tüm cihazlarda sağlıklı bir şekilde çalıştırılabilir
-- Hljs ile yazılım dillerinin kodları renkli gözükür
-- Hazır bir taslak sunar
-- Arka plana fotoğraf/video konulabilir
-- Düzenli bir çalışma ortamı sağlar
-- `forker.exe` ile kolay bir şekilde proje forklanabilir
+- Web-based, ensuring seamless operation on all devices with an internet browser
+- Syntax highlighting for programming languages using Hljs
+- Provides a ready-to-use template
+- Supports adding background images/videos
+- Offers an organized working environment
+- Easy project forking with `forker.exe`
 
-## Kurulum
+## Installation
 
 ```bash
 git clone https://github.com/DATA35DELETE/SMX-Project.git
 ```
 
-## Yapısı
+## Structure
 
 ```stylus
 SMX
-│   hljsLICENSE // Hljs'nin lisansı
-│   LICENSE // MIT lisansı
-│   main.css // Ana still dosyası
-│   main.js // Ana javascpirt dosyası. Arka plana video eklemek için
-│   README.md // Ana Markdown dosyası
-│   READMEtr.md // Türkçe Markdown dosyası
-│   X.roadMap.md // Elektronik kitap için yol haritası
-│   SMXForker.exe // Otomatik elektronik kitap oluşturmak için araç
+│   hljsLICENSE // Hljs's LICENSE
+│   LICENSE // LICENSE
+│   main.css // Main stylesheet file
+│   main.js // Main JavaScript file for adding background videos
+│   README.md // Main Markdown file
+│   READMEtr.md // Turkish Markdown file
+│   X.roadMap.md // Roadmap for the electronic book
+│   SMXForker.exe // Tool for automatically creating electronic books
 │
-├───hljs // Highlight dosyaları
+├───hljs // Highlight files
 │       highlight.min.js
-│       number.min..js
+│       number.min.js
 │       vs2015.min.css
 │
-└───Subjects // Dersler/Sayfalar
-    │   demo.html // Sayfa taslağı
+└───Subjects // Lessons/Pages
+    │   demo.html // Page template
     │
-    ├───img // Sayfalar için kullanılan fotoğraflar
-    │   │   pp.png // Sayfa başlığı
-    │   │   example.png // Örnek fotoğraf. Yapay zeka ile oluşturuldu
+    ├───img // Images used for pages
+    │   │   pp.png // Page header image
+    │   │   example.png // Sample image, AI-generated
     │   │
-    │   └───wallpapers // Duvar kağıtları
-    │           example.png // Sayfa arka plan fotoğrafı. Yapay zeka ile oluşturuldu
+    │   └───wallpapers // Wallpapers
+    │           exapmle.png // Page background image, AI-generated
     │
-    └───vid // Sayfa arka plan videoları
-            example.mp4 // Örnek video
+    └───vid // Page background videos
+            example.mp4 // Sample video
 ```
-=======
-# SMX-Project
-A new generation e-book draft.
->>>>>>> 260cd4a0988a4d7fdcfd25d5894ec2dacf9167ae
