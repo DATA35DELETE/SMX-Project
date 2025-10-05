@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Stored Memory X (SMX)
 
 ## Hakkında
@@ -52,3 +53,7 @@ SMX
     └───vid // Sayfa arka plan videoları
             example.mp4 // Örnek video
 ```
+=======
+# SMX-Project
+A new generation e-book draft.
+>>>>>>> 260cd4a0988a4d7fdcfd25d5894ec2dacf9167ae
