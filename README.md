@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Stored Memory X (SMX)
 
 ## Hakkında
@@ -19,7 +18,7 @@ SMX projesini öne çıkan özellikleri şunlardır:
 ## Kurulum
 
 ```bash
-git clone https://github.com/kullaniciadi/proje-adi.git
+git clone https://github.com/DATA35DELETE/SMX-Project.git
 ```
 
 ## Yapısı
